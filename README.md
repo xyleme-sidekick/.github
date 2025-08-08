@@ -95,7 +95,8 @@ This generates the production-ready files in the dist/ directory. The contents o
 ### Integrating with Sidekick
 For Sidekick to successfully integrate your custom Kick, MadCap Xyleme must have a public URL to your deployed federated module (for example, ```https://example.com/assets/kicks.js```). This URL will be used to dynamically load your custom Kicks into Sidekick directly within the Xyleme platform.
 
-  To provide MadCap Xyleme with your URL, please open a ticket with the [Customer Request Center](https://madcapsoftware.atlassian.net/servicedesk/customer/portal/6).
+> [!IMPORTANT]
+> To provide MadCap Xyleme with your URL, please open a ticket with the [Customer Request Center](https://madcapsoftware.atlassian.net/servicedesk/customer/portal/6).
 
 ## Creating a custom Kick
 
@@ -112,9 +113,11 @@ If you don't have a Vite project yet, create one with the following commands:
   npm install
 ```
 
-> :info: If you’d like to use Typescript, swap react for react-ts.
+> [!NOTE]
+> If you’d like to use Typescript, swap react for react-ts.
 
-> :info: These examples will use NPM, but Yarn is also a viable alternative.
+> [!NOTE]
+> These examples will use NPM, but Yarn is also a viable alternative.
 
 #### Step 1.2: Install the required dependencies
 
